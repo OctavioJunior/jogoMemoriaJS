@@ -1,6 +1,24 @@
-h1 {
-    text-align: center;
-    padding: 15px;
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 0 0 15px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .grid {
@@ -19,6 +37,7 @@ h1 {
     position: relative;
     transition: all 1000ms ease;
     transform-style: preserve-3d;
+    background-color: #ccc;
 }
 
 .face {
