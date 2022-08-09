@@ -5,7 +5,7 @@ main {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: url("../images/bg.jpg");
+    background-image: url("../imag/bg.png");
     background-size: cover;
 }
 
@@ -54,8 +54,9 @@ header {
 }
 
 .back {
-    background-image: url("../images/back.png");
+    background-image: url("../imag/back.png");
     backface-visibility: hidden;
+    border: 2.5px solid black;
 }
 
 .revealCard {

@@ -3,16 +3,16 @@ const spanPlayer = document.querySelector(".player")
 const timer = document.querySelector(".timer")
 
 const characters = [
-  'beth',
-  'jerry',
-  'jessica',
-  'morty',
-  'pessoa-passaro',
-  'pickle-rick',
-  'rick',
-  'summer',
-  'meeseeks',
-  'scroopy',
+  "bulma",
+  "gohan_kid",
+  "goku",
+  "goku_kid",
+  "majinbook",
+  "mix",
+  "picollo",
+  "saiyaman",
+  "videl",
+  "vegeta",
 ]
 
 const createElement = (tag, className) => {
@@ -88,7 +88,7 @@ const createCard = (character) => {
   const front = createElement('div', 'face front')
   const back = createElement('div', 'face back')
 
-  front.style.backgroundImage = `url('../images/${character}.png')`
+  front.style.backgroundImage = `url('../imag/${character}.gif')`
 
   card.appendChild(front)
   card.appendChild(back)
